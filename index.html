@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Personal Reza Julian - Full-Stack Developer & Software Engineer. Menampilkan keahlian, pengalaman, dan showcase proyek.">
+  <meta name="author" content="Reza Julian">
+  <meta name="theme-color" content="#2563eb">
+  <title>Reza Julian | Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/profile.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Beranda Reza Julian">
+        <span class="brand-initials">RJ</span>
+        <span class="brand-name">Reza Julian</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Navigasi Utama">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Alihkan tema gelap/terang" title="Alihkan tema">
+          <span class="theme-icon light-icon" aria-hidden="true">☀️</span>
+          <span class="theme-icon dark-icon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="section hero-section" id="hero" aria-label="Hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-greeting">Halo, nama saya</p>
+          <h1 class="hero-title" id="hero-name">Reza Julian</h1>
+          <h2 class="hero-headline" id="hero-headline">Full-Stack Developer &amp; Software Engineer</h2>
+          <p class="hero-bio" id="hero-bio">
+            Membangun aplikasi web modern yang cepat, responsif, dan mudah diakses dengan fokus pada clean code dan performa optimal.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+            <a href="#projects" class="btn btn-secondary">Lihat Proyek</a>
+          </div>
+          <div class="hero-socials" id="hero-socials" aria-label="Tautan Media Sosial">
+            <!-- Social links dynamically loaded or fallback -->
+            <a href="https://github.com/julianreza" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+              <img src="assets/icons/github.svg" alt="" width="20" height="20" aria-hidden="true">
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/julianreza" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+              <img src="assets/icons/linkedin.svg" alt="" width="20" height="20" aria-hidden="true">
+              <span>LinkedIn</span>
+            </a>
+            <a href="mailto:rhezandroid@gmail.com" class="social-link" aria-label="Email">
+              <img src="assets/icons/email.svg" alt="" width="20" height="20" aria-hidden="true">
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="avatar-wrapper">
+            <img src="assets/images/profile.svg" alt="Foto Profil Reza Julian" class="hero-avatar" width="280" height="280" id="hero-avatar">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about" aria-label="Tentang Saya">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Tentang Saya</h2>
+          <p class="section-subtitle">Mengenal latar belakang dan pengalaman kerja saya</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-text" id="about-text">
+            <p>
+              Saya adalah seorang pengembang perangkat lunak dengan pengalaman dalam membangun solusi web ujung-ke-ujung (end-to-end). Terbiasa merancang antarmuka pengguna yang intuitif, arsitektur frontend yang terstruktur rapi, serta backend API yang andal dan aman.
+            </p>
+          </div>
+          <div class="experience-list" id="experience-list">
+            <h3 class="experience-title">Pengalaman Kerja</h3>
+            <div class="experience-item">
+              <div class="experience-period">2023 - Sekarang</div>
+              <h4 class="experience-role">Senior Frontend / Full-Stack Engineer</h4>
+              <p class="experience-company">Tech Solutions &amp; Digital Studio</p>
+              <p class="experience-desc">Memimpin pengembangan aplikasi web interaktif, mengoptimalkan Web Vitals, serta merancang sistem komponen UI yang reusable dan modular.</p>
+            </div>
+            <div class="experience-item">
+              <div class="experience-period">2021 - 2023</div>
+              <h4 class="experience-role">Web Developer</h4>
+              <p class="experience-company">Freelance &amp; Agency Projects</p>
+              <p class="experience-desc">Mengembangkan website portofolio, landing page konversi tinggi, dan dashboard internal menggunakan HTML5, modern CSS, dan JavaScript.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills" aria-label="Keahlian">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Keahlian Teknis</h2>
+          <p class="section-subtitle">Alat dan teknologi yang saya gunakan sehari-hari</p>
+        </div>
+        <div class="skills-grid" id="skills-grid">
+          <!-- Rendered via JS / Semantic HTML fallback -->
+          <div class="skill-category">
+            <h3 class="category-title">Frontend Development</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">HTML5 &amp; Semantic Markup</li>
+              <li class="skill-tag">Modern CSS &amp; Responsive Design</li>
+              <li class="skill-tag">JavaScript (ES6+)</li>
+              <li class="skill-tag">React &amp; Next.js</li>
+              <li class="skill-tag">Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3 class="category-title">Backend &amp; Database</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">Node.js &amp; Express</li>
+              <li class="skill-tag">RESTful APIs &amp; GraphQL</li>
+              <li class="skill-tag">PostgreSQL &amp; MySQL</li>
+              <li class="skill-tag">Firebase &amp; Firestore</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3 class="category-title">Tools &amp; Workflows</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">Git &amp; GitHub Version Control</li>
+              <li class="skill-tag">Vite &amp; Modern Bundlers</li>
+              <li class="skill-tag">CI/CD &amp; Automated Testing</li>
+              <li class="skill-tag">Performance &amp; Core Web Vitals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects" aria-label="Proyek Unggulan">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Proyek Unggulan</h2>
+          <p class="section-subtitle">Kumpulan karya dan studi kasus terpilih</p>
+        </div>
+        <div class="projects-grid" id="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img src="assets/images/projects/project-1.svg" alt="Preview EduTrack LMS Platform" class="project-image" loading="lazy" width="600" height="340">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">EduTrack - Interactive Learning Platform</h3>
+              <p class="project-desc">Aplikasi web pembelajaran interaktif dengan manajemen kelas, pelacakan progres belajar real-time, dan dashboard analitik siswa.</p>
+              <ul class="project-tags" aria-label="Teknologi yang digunakan">
+                <li class="tech-tag">HTML5</li>
+                <li class="tech-tag">CSS3</li>
+                <li class="tech-tag">JavaScript</li>
+                <li class="tech-tag">REST API</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/julianreza/edutrack-app" target="_blank" rel="noopener noreferrer" class="link-btn">
+                  <img src="assets/icons/github.svg" alt="" width="16" height="16" aria-hidden="true">
+                  <span>Repository</span>
+                </a>
+                <a href="https://edutrack-preview.example.com" target="_blank" rel="noopener noreferrer" class="link-btn link-primary">
+                  <img src="assets/icons/external-link.svg" alt="" width="16" height="16" aria-hidden="true">
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img src="assets/images/projects/project-2.svg" alt="Preview SpendWise Expense Tracker" class="project-image" loading="lazy" width="600" height="340">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">SpendWise - Smart Budget &amp; Expense Tracker</h3>
+              <p class="project-desc">Aplikasi pencatatan keuangan pribadi dengan visualisasi grafik interaktif, pembagian kategori otomatis, serta penyimpanan data lokal aman.</p>
+              <ul class="project-tags" aria-label="Teknologi yang digunakan">
+                <li class="tech-tag">JavaScript ES6</li>
+                <li class="tech-tag">Chart.js</li>
+                <li class="tech-tag">CSS Flex/Grid</li>
+                <li class="tech-tag">LocalStorage</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/julianreza/spendwise-tracker" target="_blank" rel="noopener noreferrer" class="link-btn">
+                  <img src="assets/icons/github.svg" alt="" width="16" height="16" aria-hidden="true">
+                  <span>Repository</span>
+                </a>
+                <a href="https://spendwise-preview.example.com" target="_blank" rel="noopener noreferrer" class="link-btn link-primary">
+                  <img src="assets/icons/external-link.svg" alt="" width="16" height="16" aria-hidden="true">
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img src="assets/images/projects/project-3.svg" alt="Preview Artisan Cafe Online Store" class="project-image" loading="lazy" width="600" height="340">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Artisan Brew - Specialty Coffee E-Commerce</h3>
+              <p class="project-desc">Toko online responsif untuk coffee roastery lokal dengan katalog produk dinamis, keranjang belanja interaktif, dan integrasi WhatsApp checkout.</p>
+              <ul class="project-tags" aria-label="Teknologi yang digunakan">
+                <li class="tech-tag">HTML5 Semantic</li>
+                <li class="tech-tag">Modern CSS</li>
+                <li class="tech-tag">Vanilla JS</li>
+                <li class="tech-tag">WhatsApp API</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/julianreza/artisan-brew-store" target="_blank" rel="noopener noreferrer" class="link-btn">
+                  <img src="assets/icons/github.svg" alt="" width="16" height="16" aria-hidden="true">
+                  <span>Repository</span>
+                </a>
+                <a href="https://artisanbrew-preview.example.com" target="_blank" rel="noopener noreferrer" class="link-btn link-primary">
+                  <img src="assets/icons/external-link.svg" alt="" width="16" height="16" aria-hidden="true">
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact" aria-label="Kontak">
+      <div class="container contact-container">
+        <div class="section-header">
+          <h2 class="section-title">Hubungi Saya</h2>
+          <p class="section-subtitle">Mari berdiskusi mengenai proyek menarik atau peluang kerja sama</p>
+        </div>
+        <div class="contact-card">
+          <p class="contact-text">
+            Saya selalu terbuka untuk berdiskusi seputar peluang baru, kolaborasi proyek web, atau sekadar bertukar ide.
+          </p>
+          <a href="mailto:rhezandroid@gmail.com" class="btn btn-primary btn-large contact-cta">
+            <img src="assets/icons/email.svg" alt="" width="22" height="22" aria-hidden="true">
+            <span>Kirim Pesan Email</span>
+          </a>
+          <div class="contact-meta">
+            <p>Atau temukan saya di:</p>
+            <div class="contact-social-pills">
+              <a href="https://github.com/julianreza" target="_blank" rel="noopener noreferrer" class="pill-link">GitHub</a>
+              <a href="https://linkedin.com/in/julianreza" target="_blank" rel="noopener noreferrer" class="pill-link">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p class="footer-copy">&copy; <span id="current-year">2026</span> Reza Julian. Dibuat dengan HTML5, CSS3, &amp; JavaScript.</p>
+      <div class="footer-links">
+        <a href="#hero">Kembali ke Atas ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Website Portofolio Sederhana dan Responsif",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "npx -y serve . -l 3000",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "portfolio",
+    "html5",
+    "css3",
+    "javascript",
+    "responsive"
+  ],
+  "author": "Reza Julian",
+  "license": "MIT"
+}
